@@ -34,6 +34,23 @@ Alice,30,9.5,rust;pl;systems
 Bob,25,7.0,java
 ```
 
+Or if you want to just embed data in a Markdown file:
+
+```
+#! REQUIRE_DELIMITER
+
+# My super project
+
+Welcome to my project!  Here's it's description.
+
+And here's it's config:
+
+| level    | diff:difficulty | spawn:vector3   |
+| -------- | --------------- | --------------- |
+| Forest   | 1               | 0.0;  1.2;  5.5 |
+| Dungeon  | 3               | 10.0; 0.0; -2.0 |
+```
+
 ## Strict Parsers
 
 The parsers are designed to be strict. If the file parses, the data is valid. Any error will result in a failure to parse the entire file and as such validating SSV files should be part of your workflow, preferably an automated one, e.g. in a git pre-commit hook
@@ -399,6 +416,16 @@ To disable this (if you need lines like `| --- | --- |` to read as data for some
 ```
 #! DISABLE-MARKDOWN-SUPPORT
 ```
+
+## Super Markdown Mode
+
+You can opt-in to a mode that _requires_ the first character on any line to be the first delimiter in order parse that line as data. Whitespace is ignored. Enable this with:
+
+```
+#! REQUIRE_DELIMITER
+```
+
+This gives you the ability to instantly turn any file that is otherwise markdown, a readme, or anything else, into an SSV parseable file where only the markdown formatted tables are parsed as data. There is an example in the [Format overview](#format-overview) section at the top.
 
 ## Cheat Sheet of Valid Parser Comments
 
