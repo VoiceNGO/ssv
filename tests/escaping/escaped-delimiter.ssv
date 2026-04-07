@@ -1,0 +1,3 @@
+name:string | desc:string
+Alice       | hello\|world
+Bob         | foo\|bar\|baz

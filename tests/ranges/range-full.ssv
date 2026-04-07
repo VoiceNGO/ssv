@@ -1,0 +1,4 @@
+name:string | age:uint8(0..120) | score:float(0.0..10.0)
+Alice       | 30               | 9.5
+Bob         | 0                | 0.0
+Carol       | 120              | 10.0

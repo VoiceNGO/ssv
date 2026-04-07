@@ -1,0 +1,5 @@
+#! DELIMITERS | ; :
+
+name:string | friends:[string, string][]
+Alice       | Bob:Hope;Tom:Jones;Frank:Sinatra
+Bob         | Alice:Smith

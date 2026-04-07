@@ -1,0 +1,5 @@
+#! TYPE email = /^.+@.+\..+$/
+
+name:string | contact:email
+Bob         | bob@example.com
+Alice       | alice@test.org

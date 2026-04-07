@@ -1,0 +1,2 @@
+name:string | count:int | ratio:float | active:bool | tags:string[]
+Alice

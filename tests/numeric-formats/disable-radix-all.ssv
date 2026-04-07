@@ -1,0 +1,6 @@
+#! DISABLE_RADIX_NUMBERS
+
+val:int
+100
+-50
+0

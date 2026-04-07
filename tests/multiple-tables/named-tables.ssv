@@ -1,0 +1,12 @@
+#! TABLE friends
+
+name:string | age:int
+Bob         | 30
+Sue         | 25
+
+#! TABLE colors
+
+color:string | hex:string
+red          | #FF0000
+green        | #00FF00
+blue         | #0000FF

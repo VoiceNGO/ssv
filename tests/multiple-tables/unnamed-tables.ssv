@@ -1,0 +1,12 @@
+#! TABLE
+
+name:string | age:int
+Alice       | 30
+Bob         | 25
+
+#! TABLE
+
+color:string
+red
+green
+blue

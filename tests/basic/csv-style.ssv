@@ -1,0 +1,5 @@
+#! DELIMITERS , ;
+
+name,age:int,score:float,tags:string[]
+Alice,30,9.5,rust;pl;systems
+Bob,25,7,java

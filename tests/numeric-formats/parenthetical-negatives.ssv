@@ -1,0 +1,6 @@
+#! PARENTHETICAL_NEGATIVES
+
+val:int | amount:float
+(500)   | (3.14)
+100     | 2.71
+0       | 0

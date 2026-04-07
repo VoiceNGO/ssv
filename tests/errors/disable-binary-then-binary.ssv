@@ -1,0 +1,4 @@
+#! DISABLE_BINARY_NUMBERS
+
+val:int
+0b1010

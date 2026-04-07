@@ -1,0 +1,1 @@
+type error: 'unknown' is not a member of enum [active, inactive, pending]

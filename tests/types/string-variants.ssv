@@ -1,0 +1,4 @@
+code:string(3) | slug:string(..10) | label:string
+EUR            | hello             | Hello World
+USD            | hi                | Foo Bar
+GBP            |                   | empty slug

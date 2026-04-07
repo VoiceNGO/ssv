@@ -1,0 +1,5 @@
+#! ESCAPE_CHARACTER ^
+
+name:string | desc:string
+Alice       | hello^|world
+Bob         | path^nline

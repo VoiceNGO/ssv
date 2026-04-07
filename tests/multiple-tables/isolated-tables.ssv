@@ -1,0 +1,12 @@
+#! ISOLATED_TABLES
+#! TYPE status = string[active, inactive]
+
+name:string | status:status
+Alice       | active
+Bob         | inactive
+
+#! TABLE
+
+item:string | count:uint8
+apple       | 5
+banana      | 3

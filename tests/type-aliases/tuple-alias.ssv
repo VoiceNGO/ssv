@@ -1,0 +1,5 @@
+#! TYPE name = [string, string]
+
+person:name | age:int
+John;Doe    | 30
+Jane;Smith  | 25

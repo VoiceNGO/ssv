@@ -1,0 +1,2 @@
+name:string | age:uint8(18..120)
+Alice

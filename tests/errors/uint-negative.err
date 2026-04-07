@@ -1,0 +1,1 @@
+type error: -1 is not a valid uint8 (negative values not allowed)

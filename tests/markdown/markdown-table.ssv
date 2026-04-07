@@ -1,0 +1,6 @@
+#! TYPE difficulty = uint8(0..3)
+
+| level   | diff:difficulty | lives:uint8 |
+| ------- | --------------- | ----------- |
+| Forest  | 1               | 3           |
+| Dungeon | 3               | 1           |

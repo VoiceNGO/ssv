@@ -1,0 +1,5 @@
+#! NUMERIC_SEPARATOR _
+
+val:int | amount:float
+1_000_000 | 1_234.5
+-2_000    | -0.001_5

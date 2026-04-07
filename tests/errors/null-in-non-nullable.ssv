@@ -1,0 +1,5 @@
+#! NULL _
+
+name:string | age:int
+Alice       | 30
+Bob         | _

@@ -1,0 +1,6 @@
+#! DISABLE_BINARY_NUMBERS
+
+val:int
+42
+255
+-10

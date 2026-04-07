@@ -1,0 +1,6 @@
+#! DELIMITERS | ; :
+#! TYPE coord = [float, float]
+
+name:string | waypoints:coord[]
+Route A     | 1.0:2.0;3.0:4.0
+Route B     | 0.0:0.0

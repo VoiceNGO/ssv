@@ -1,0 +1,4 @@
+name:string | score:int(..100)
+Alice       | 100
+Bob         | 0
+Carol       | -50

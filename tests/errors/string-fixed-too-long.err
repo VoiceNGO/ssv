@@ -1,0 +1,1 @@
+type error: 'EURO' has length 4, expected exactly 3 for type string(3)

@@ -1,0 +1,4 @@
+name:string | age:uint8 | score:float
+Alice
+Bob         | 25
+Carol       | 30        | 8.5

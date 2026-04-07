@@ -1,0 +1,7 @@
+#! DELIMITERS | ; :
+#! TYPE name = [string, string]
+#! TYPE parents = [name, name]
+
+family:parents | city:string
+John:Doe;Jane:Doe    | Springfield
+Bob:Smith;Alice:Smith | Shelbyville

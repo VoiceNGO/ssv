@@ -1,0 +1,3 @@
+name:string | comment:string
+Alice       | \#not a comment
+Bob         | foo\#bar

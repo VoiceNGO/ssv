@@ -1,0 +1,6 @@
+#! NULL _
+
+name:string | age:int? | score:float?
+Alice       | 30       | 9.5
+Bob         | _        | _
+Carol       | 25       | _

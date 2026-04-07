@@ -1,0 +1,6 @@
+name:string | age:int
+# comment between rows
+Alice | 30
+# another comment
+Bob | 25
+# trailing comment

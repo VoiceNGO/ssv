@@ -1,0 +1,4 @@
+status:string[active, inactive, pending]
+active
+inactive
+pending

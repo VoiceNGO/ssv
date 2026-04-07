@@ -1,0 +1,5 @@
+#! DELIMITERS | ; :
+
+name:string | parents:[[string, string], [string, string]]
+Alice       | Rob:Petrie;Laura:Petrie
+Bob         | John:Smith;Jane:Smith

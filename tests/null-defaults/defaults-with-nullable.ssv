@@ -1,0 +1,6 @@
+#! NULL _
+
+name:string | score:int?=100
+Alice
+Bob         | _
+Carol       | 50

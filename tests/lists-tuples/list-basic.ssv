@@ -1,0 +1,4 @@
+name:string | scores:int[] | tags:string[]
+Alice       | 10;20;30     | rust;go
+Bob         | 5            | java
+Carol       |              |
